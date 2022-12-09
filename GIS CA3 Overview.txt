@@ -1,0 +1,50 @@
+Assignment 3 - Happy Valley Ski Area
+
+Hide Assignment Information
+Instructions
+Due 18th December 2022
+
+The Happy Valley Ski Area (HVSA)
+
+
+The management of the Happy Valley Ski Area have commissioned you to create a series of visualisations to illustrate the facilities and terrain characteristics if the ski area. You are also required too create visualisations to help the management to solve some specific problems such as how much snow can be expected on average across the area, what areas are most susceptible to avalanche risk and where are the optimum areas to locate a new meteorological station.
+
+The data available to you is as follows.
+
+Vector Layers
+Hotels (point)
+Restaurants (point)
+Ski schools (point)
+Car parks (point)
+Met stations (point)
+Pistes (Line)
+Ski lifts (line)
+Roads (line)
+Bus routes (line)
+Rivers (line)
+Contours (line)
+Vegetation (polygon)
+
+Raster layers
+DEM (grid of height values)
+
+In addition, there are attribute files in excel (xls) format which match their appropriate vector layer.
+
+The data is at https://tudublin-my.sharepoint.com/:f:/g/personal/mark_foley_tudublin_ie/Eh3poZHep29MnqqWDDQoLs4B2rPutmEUzu7X-SwAM-0x-Q?e=F0fxqc
+
+Your specific requirements are
+
+Create a colourised shaded relief map overlaid with the key elements of the infrastructure available in HSVA. These should be labeled and symbolised appropriately.
+Calculate and symbolise the estimated mean annual snow depth across the entire area based on data gathered by the meteorological stations.
+Derive and symbolise areas considered susceptible to avalanche risk based on the following simple rules, (i) areas with a slope between 20 and 45 degrees, (ii) facing towards the prevailing wind (west in this case) and (iii) not in forested areas.
+Derive and represent the optimum areas to locate a new meteorological station based on the following rules, (i) it must be at least 5Km from an existing met station, (ii) it must be within 3Km from any road or piste and (iii) it must be in non-forested areas.
+
+Note
+
+You don't have to consider coordinate or projection information as HVSA doesn't exist in any real place. All files are in the same (mythical) coordinate/projection system and the map units are in metres.
+
+
+Start Date
+07 December 2022 12:01 AM
+Due Date
+18 December 2022 11:59 PM
