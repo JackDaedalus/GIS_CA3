@@ -48,3 +48,13 @@ Start Date
 07 December 2022 12:01 AM
 Due Date
 18 December 2022 11:59 PM
+
+
+
+
+https://gis.stackexchange.com/questions/18453/create-a-new-layer-from-overlap-between-two-layers#:~:text=In%20the%20Processing%20toolbox%20there,layer%20and%20choosing%20Save%20as.
+
+https://gis.stackexchange.com/questions/437970/how-can-i-convert-a-continuous-raster-into-a-discrete-categorical-raster-using
+
+
+https://www.google.com/search?q=raster+to+clip+QGIS&rlz=1C1SQJL_enIE912IE912&oq=raster+to+clip+QGIS&aqs=chrome..69i57j0i22i30l4j0i390l4.21988j0j15&sourceid=chrome&ie=UTF-8#kpvalbx=_yAeZY6SvJ86P8gKl9aXQBg_38
