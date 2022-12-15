@@ -1,0 +1,176 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer id="OUTPUT_2d808c89_bff5_4818_ac5f_d231f0875cb1" patch_size="-1,-1" source="C:/Users/New User/AppData/Local/Temp/processing_QBnfUl/36de03cb045a48639e3a4803cfb53701/OUTPUT.tif" legend_exp="" providerKey="gdal" name="NonForest_AvalancheRisk" legend_split_behavior="0" checked="Qt::Checked" expanded="0">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0" type="raster" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" legendPlaceholderImage="">
+      <extent>
+        <xmin>6730.45154414999979053</xmin>
+        <ymin>26288.39361361999908695</ymin>
+        <xmax>34330.45154414999706205</xmax>
+        <ymax>60338.39361361999908695</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-10.80023892452952516</xmin>
+        <ymin>51.45688584573072433</ymin>
+        <xmax>-10.38477565706431704</xmax>
+        <ymax>51.7713911370405242</ymax>
+      </wgs84extent>
+      <id>OUTPUT_2d808c89_bff5_4818_ac5f_d231f0875cb1</id>
+      <datasource>C:/Users/New User/AppData/Local/Temp/processing_QBnfUl/36de03cb045a48639e3a4803cfb53701/OUTPUT.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>NonForest_AvalancheRisk</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["TM65 / Irish Grid",BASEGEOGCRS["TM65",DATUM["TM65",ELLIPSOID["Airy Modified 1849",6377340.189,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4299]],CONVERSION["Irish Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",53.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-8,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",1.000035,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",200000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",250000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Ireland - onshore."],BBOX[51.39,-10.56,55.43,-5.93]],ID["EPSG",29902]]</wkt>
+          <proj4>+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +a=6377340.189 +rf=299.3249646 +towgs84=482.5,-130.6,564.6,-1.042,-0.214,-0.631,8.15 +units=m +no_defs</proj4>
+          <srsid>2564</srsid>
+          <srid>29902</srid>
+          <authid>EPSG:29902</authid>
+          <description>TM65 / Irish Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7002</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxz="0" dimensions="2" minx="0" maxx="0" minz="0" maxy="0" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" mode="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option value="false" name="WMSBackgroundLayer" type="bool"/>
+          <Option value="false" name="WMSPublishDataSourceUrl" type="bool"/>
+          <Option value="0" name="embeddedWidgets/count" type="int"/>
+          <Option value="Value" name="identify/format" type="QString"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option value="" name="name" type="QString"/>
+          <Option name="properties"/>
+          <Option value="collection" name="type" type="QString"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" enabled="false" zoomedOutResamplingMethod="nearestNeighbour" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" classificationMax="2" type="singlebandpseudocolor" classificationMin="2">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader minimumValue="2" labelPrecision="4" clip="0" colorRampType="INTERPOLATED" classificationMode="1" maximumValue="2">
+              <colorramp name="[source]" type="gradient">
+                <Option type="Map">
+                  <Option value="10,6,251,255" name="color1" type="QString"/>
+                  <Option value="10,6,251,255" name="color2" type="QString"/>
+                  <Option value="0" name="discrete" type="QString"/>
+                  <Option value="gradient" name="rampType" type="QString"/>
+                </Option>
+                <prop k="color1" v="10,6,251,255"/>
+                <prop k="color2" v="10,6,251,255"/>
+                <prop k="discrete" v="0"/>
+                <prop k="rampType" v="gradient"/>
+              </colorramp>
+              <item label="2.0000" alpha="255" value="2" color="#0a06fb"/>
+              <rampLegendSettings suffix="" maximumLabel="" minimumLabel="" direction="0" prefix="" useContinuousLegend="1" orientation="2">
+                <numericFormat id="basic">
+                  <Option type="Map">
+                    <Option value="" name="decimal_separator" type="QChar"/>
+                    <Option value="6" name="decimals" type="int"/>
+                    <Option value="0" name="rounding_type" type="int"/>
+                    <Option value="false" name="show_plus" type="bool"/>
+                    <Option value="true" name="show_thousand_separator" type="bool"/>
+                    <Option value="false" name="show_trailing_zeros" type="bool"/>
+                    <Option value="" name="thousand_separator" type="QChar"/>
+                  </Option>
+                </numericFormat>
+              </rampLegendSettings>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" gamma="5.56" brightness="-71"/>
+        <huesaturation colorizeStrength="100" colorizeRed="255" colorizeGreen="128" grayscaleMode="0" colorizeOn="0" colorizeBlue="128" saturation="0" invertColors="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
